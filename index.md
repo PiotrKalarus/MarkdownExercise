@@ -50,4 +50,14 @@ This is a code block:
 
  Link to file example: [additional information](reference.md)
 
- 
+ ### Images
+
+ #### External 
+
+ ![Random image]( https://picsum.photos/350)
+
+ #### Internal
+
+ ![Bread](Bread.jpg "Bread")
+
+
