@@ -66,17 +66,17 @@ This is a code block:
 
 [Weather forecast](https://www.meteo.pl/)
 
- #### Internal 
+#### Internal 
 
  Link to file example: [additional information](reference.md)
 
- ### Images
+### Images
 
- #### External 
+#### External 
 
  ![Random image]( https://picsum.photos/350)
 
- #### Internal
+#### Internal
 
  ![Bread](Bread.jpg "Bread")
 
