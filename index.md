@@ -37,7 +37,7 @@ This is **bold** text.
 
 ### Italic
 
-This is text is in *italics*. 
+This text is in *italics*. 
 
 ### Quote
 
