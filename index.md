@@ -22,6 +22,12 @@
 - [Tables](#tables)
 - [Footnote](#footnote)
 - [Definitions](#definitions)
+- [Strikethrough](#strikethrough)
+- [Task lists](#task-lists)
+- [Emoji](#emoji)
+  - [Copied and pasted](#copied-and-pasted)
+  - [Shortcodes](#shortcodes)
+- [Highlight](#highlight)
 
 
 This is the first paragraph of my file.
@@ -138,6 +144,34 @@ DITA
 : The Darwin Information Typing Architecture (DITA) is an XML-based architecture for authoring, producing, and delivering topic-oriented, information-typed content that can be reused and single-sourced in a variety of ways.[^3]
 
 [^3]: [Overview of DITA](https://dita-lang.org/dita/archspec/base/introduction-to-dita)
+
+## Strikethrough
+
+~~Example of a crossed-out sentence~~
+
+## Task lists
+
+- [X] enrol in a postgraduate course in technical communication
+- [ ] gain knowledge and master the tools
+- [ ] find your first job as a technical writer
+
+## Emoji
+
+### Copied and pasted
+
+📖🖥️💻🖋️📚👨🏻‍🎓🎓[^4]
+
+[^4]: [Emojipedia](https://emojipedia.org/)
+
+### Shortcodes
+
+blush :blush:, smiley :smiley:, bug :bug:, floppy disk :floppy_disk:, VHS :vhs:, wrench :wrench:[^5]
+
+[^5]: [Shortcodes](https://gist.github.com/rxaviers/7360908)
+
+## Highlight
+
+==The key to success is consistency==
 
 
 
