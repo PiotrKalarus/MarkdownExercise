@@ -20,6 +20,7 @@
   - [Ordered](#ordered)
   - [Unordered](#unordered)
 - [Tables](#tables)
+- [Footnote](#footnote)
 
 
 This is the first paragraph of my file.
@@ -119,3 +120,6 @@ $$
 
 Test sentence
 
+## Footnote 
+
+A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing. [^1](https://www.brainyquote.com/quotes/george_bernard_shaw_102967)
