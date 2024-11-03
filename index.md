@@ -28,6 +28,8 @@
   - [Copied and pasted](#copied-and-pasted)
   - [Shortcodes](#shortcodes)
 - [Highlight](#highlight)
+- [Subscript](#subscript)
+- [Superscript](#superscript)
 
 
 This is the first paragraph of my file.
@@ -172,6 +174,15 @@ blush :blush:, smiley :smiley:, bug :bug:, floppy disk :floppy_disk:, VHS :vhs:,
 ## Highlight
 
 ==The key to success is consistency==
+
+## Subscript
+
+H~2~O
+
+## Superscript
+
+X^2^
+
 
 
 
