@@ -21,6 +21,7 @@
   - [Unordered](#unordered)
 - [Tables](#tables)
 - [Footnote](#footnote)
+- [Definitions](#definitions)
 
 
 This is the first paragraph of my file.
@@ -125,4 +126,20 @@ Test sentence
 A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing.[^1]
 
 [^1]: [George Bernard Shaw](https://www.brainyquote.com/quotes/george_bernard_shaw_102967)
+
+## Definitions 
+
+Markdown
+: Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.[^2]
+
+[^2]: [Markdown Guide](https://www.markdownguide.org/getting-started/)
+
+DITA
+: The Darwin Information Typing Architecture (DITA) is an XML-based architecture for authoring, producing, and delivering topic-oriented, information-typed content that can be reused and single-sourced in a variety of ways.[^3]
+
+[^3]: [Overview of DITA](https://dita-lang.org/dita/archspec/base/introduction-to-dita)
+
+
+
+
 
