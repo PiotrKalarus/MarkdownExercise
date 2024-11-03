@@ -179,6 +179,8 @@ blush :blush:, smiley :smiley:, bug :bug:, floppy disk :floppy_disk:, VHS :vhs:,
 
 H~2~O
 
+H<sub>2</sub>O
+
 ## Superscript
 
 X^2^
