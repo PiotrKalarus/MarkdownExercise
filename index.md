@@ -122,4 +122,7 @@ Test sentence
 
 ## Footnote 
 
-A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing. [^1]
+A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing.[^1]
+
+[^1]: George Bernard Shaw
+
