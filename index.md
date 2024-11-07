@@ -3,12 +3,19 @@
 - [Visual elements](#visual-elements)
   - [Bold](#bold)
   - [Italic](#italic)
-  - [Quote](#quote)
+  - [Strikethrough](#strikethrough)
+  - [Highlight](#highlight)
+  - [Subscript](#subscript)
+  - [Superscript](#superscript)
+- [Information elements](#information-elements)
   - [Code and formulas](#code-and-formulas)
     - [Code phrase](#code-phrase)
     - [Formula](#formula)
     - [Code block](#code-block)
     - [Formula block](#formula-block)
+  - [Quote](#quote)
+  - [Footnote](#footnote)
+  - [Definition](#definition)
 - [Linking elements](#linking-elements)
   - [Links to content](#links-to-content)
     - [External](#external)
@@ -19,17 +26,11 @@
 - [Lists](#lists)
   - [Ordered](#ordered)
   - [Unordered](#unordered)
+  - [Task lists](#task-lists)
 - [Tables](#tables)
-- [Footnote](#footnote)
-- [Definitions](#definitions)
-- [Strikethrough](#strikethrough)
-- [Task lists](#task-lists)
 - [Emoji](#emoji)
   - [Copied and pasted](#copied-and-pasted)
   - [Shortcodes](#shortcodes)
-- [Highlight](#highlight)
-- [Subscript](#subscript)
-- [Superscript](#superscript)
 
 
 This is the first paragraph of my file.
@@ -49,18 +50,35 @@ This is **bold** text.
 
 This text is in *italics*. 
 
-### Quote
+### Strikethrough
 
-This is a quote: 
-> The quote.  
-> Another quote.
+~~Example of a crossed-out sentence~~
+
+### Highlight
+
+==The key to success is consistency==
+
+<mark>The key to success is consistency</mark>
+
+### Subscript
+
+H~2~O
+
+H<sub>2</sub>O
+
+### Superscript
+
+X^2^
+
+X<sup>2</sup>
+
+## Information elements
 
 ### Code and formulas
 
 #### Code phrase 
 
 This is a text with `void` code phrase.
-
 
 #### Formula
 
@@ -81,6 +99,30 @@ This is a code block:
 $$
 a+b=c
 $$
+
+### Quote
+
+This is a quote: 
+> The quote.  
+> Another quote.
+
+### Footnote 
+
+A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing.[^1]
+
+[^1]: [George Bernard Shaw](https://www.brainyquote.com/quotes/george_bernard_shaw_102967)
+
+### Definition 
+
+Markdown
+: Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.[^2]
+
+[^2]: [Markdown Guide](https://www.markdownguide.org/getting-started/)
+
+DITA
+: The Darwin Information Typing Architecture (DITA) is an XML-based architecture for authoring, producing, and delivering topic-oriented, information-typed content that can be reused and single-sourced in a variety of ways.[^3]
+
+[^3]: [Overview of DITA](https://dita-lang.org/dita/archspec/base/introduction-to-dita)
 
 ## Linking elements
 
@@ -118,6 +160,11 @@ $$
 * Another bullet
 * Yet another bullet
 
+### Task lists
+
+- [X] enrol in a postgraduate course in technical communication
+- [ ] gain knowledge and master the tools
+- [ ] find your first job as a technical writer
 
 ## Tables 
 
@@ -128,34 +175,6 @@ $$
 | Very long sentence | Another very long sentence | Yet another very long sentence |
 
 Test sentence
-
-## Footnote 
-
-A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing.[^1]
-
-[^1]: [George Bernard Shaw](https://www.brainyquote.com/quotes/george_bernard_shaw_102967)
-
-## Definitions 
-
-Markdown
-: Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents.[^2]
-
-[^2]: [Markdown Guide](https://www.markdownguide.org/getting-started/)
-
-DITA
-: The Darwin Information Typing Architecture (DITA) is an XML-based architecture for authoring, producing, and delivering topic-oriented, information-typed content that can be reused and single-sourced in a variety of ways.[^3]
-
-[^3]: [Overview of DITA](https://dita-lang.org/dita/archspec/base/introduction-to-dita)
-
-## Strikethrough
-
-~~Example of a crossed-out sentence~~
-
-## Task lists
-
-- [X] enrol in a postgraduate course in technical communication
-- [ ] gain knowledge and master the tools
-- [ ] find your first job as a technical writer
 
 ## Emoji
 
@@ -170,27 +189,3 @@ DITA
 blush :blush:, smiley :smiley:, bug :bug:, floppy disk :floppy_disk:, VHS :vhs:, wrench :wrench:[^5]
 
 [^5]: [Shortcodes](https://gist.github.com/rxaviers/7360908)
-
-## Highlight
-
-==The key to success is consistency==
-
-<mark>The key to success is consistency</mark>
-
-## Subscript
-
-H~2~O
-
-H<sub>2</sub>O
-
-## Superscript
-
-X^2^
-
-X<sup>2</sup>
-
-
-
-
-
-
